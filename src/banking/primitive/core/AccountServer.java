@@ -1,3 +1,12 @@
+/*
+  File:	AccountServer.java
+  Author: Anup Chagam
+  Date:	April 10, 2017
+  
+  Description: This is an interface that is used in the ServerSolution code.  It contains the methods for creating a new account,
+  closing an account, getting an account, getting all accounts, getting all active accounts, and saving an account
+*/
+
 package banking.primitive.core;
 
 import java.io.IOException;
