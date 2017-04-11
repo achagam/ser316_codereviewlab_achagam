@@ -136,7 +136,7 @@ class MainFrame extends JFrame {
 			if (myServer.newAccount(type, name, Float.parseFloat(balance))) {
 				JOptionPane.showMessageDialog(null, "Account created successfully");
 			} else {
-				JOptionPane.showMessageDialog(null, "Account not created!");
+				JOptionPane.showMessageDialog(null, "Account not created!  There is either an account already under that name.");
 			}
 		}
 	}
