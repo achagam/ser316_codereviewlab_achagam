@@ -59,7 +59,7 @@ public abstract class Account implements java.io.Serializable {
     /**
      * @return either "Checking" or "Savings"
      */
-    //public abstract String getType();
+    public abstract String getType();
 
     protected final State getState() {
         return state;
